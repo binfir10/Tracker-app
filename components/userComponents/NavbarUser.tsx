@@ -36,7 +36,7 @@ function MobileNavbar() {
           </SheetTrigger>
 
           <SheetContent className="w-[400px] sm:w-[540px]" side="left">
-            <Link href="/" className="text-lg font-black antialiased flex items-center gap-2" ><Wallet className="w-5 h-5" /> TrackerAPP</Link>
+            <Link href="/" className="text-lg font-black antialiased flex items-center gap-2" ><Wallet className="w-5 h-5" /> FinanzApp</Link>
           
             <div className="flex flex-col gap-1 pt-4">
               {items.map((item) => (
@@ -51,7 +51,7 @@ function MobileNavbar() {
           </SheetContent>
         </Sheet>
         <div className="flex min-h-[60px] items-center justify-center gap-x-4">
-          <Link href="/" className="text-lg font-black antialiased flex items-center gap-2" ><Wallet className="w-5 h-5" /> TrackerAPP</Link>
+          <Link href="/" className="text-lg font-black antialiased flex items-center gap-2" ><Wallet className="w-5 h-5" /> FinanzApp</Link>
           <div className="flex h-full gap-2 items-center">
             <ModeToggle />
 
@@ -68,7 +68,7 @@ function DesktopNavbar() {
     <div className="hidden md:block  border-b bg-background fixed top-0 w-full left-0 z-20 ">
       <nav className="container flex items-center justify-between px-8">
         <div className="flex w-full h-[60px] min-h-[60px] items-center gap-x-4 justify-between">
-          <Link href="/" className="text-lg font-black antialiased flex items-center gap-2" ><Wallet className="w-5 h-5" /> TrackerAPP</Link>
+          <Link href="/" className="text-lg font-black antialiased flex items-center gap-2" ><Wallet className="w-5 h-5" /> FinanzApp</Link>
           <div className="flex h-full">
             {items.map((item) => (
               <NavbarItem
