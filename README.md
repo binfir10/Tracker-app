@@ -18,7 +18,7 @@ Finanzas App es una aplicación para el control de finanzas personales. Permite 
 - **TypeScript:** Superset de JavaScript para un desarrollo más robusto y tipado estático.
 - **Tailwind CSS:** Framework de CSS para un diseño personalizado y responsivo.
 - **ShadCN:** Biblioteca para componentes UI de alto nivel.
-- **React Query:** Para la gestión de datos y sincronización en el cliente.
+- **Tanstack Query:** Para la gestión de datos y sincronización en el cliente.
 - **Zod:** Biblioteca para la validación de esquemas y datos.
 - **Clerk:** Solución de autenticación y manejo de usuarios.
 - **Prisma:** ORM para trabajar con bases de datos SQL.
